@@ -21,6 +21,10 @@
 					<link href="css/style.css" rel="stylesheet" />
 				<!-- jQuery 3.3.1 -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<!-- My own css file-->
+		<link rel="stylesheet" type="text/css" href="/css/mystyle.css">
+		<!--My js files-->
+		<script type="text/javascript" src="js/register.js"></script>
 			</head> 
 	<body>
 <!-- Navigation Mobile type 1 -->
@@ -30,7 +34,7 @@
 	<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
 	<div class="px-40 pt-60 pb-60 inner">
 		<div class="logo color-white mb-30">Da Forum</div>
-				<div><a href="#" class="f-heading f-22 link color-white mb-20">Home</a></div>	
+				<div><a href="index.html" class="f-heading f-22 link color-white mb-20">Home</a></div>	
 						<div><a href="#" class="f-heading f-22 link color-white mb-20">Support</a></div>	
 						<div><a href="#" class="f-heading f-22 link color-white mb-20">Contacts</a></div>	
 						<div><a href="#" class="f-heading f-22 link color-white mb-20">Pricing</a></div>	
@@ -62,7 +66,7 @@
 			<div class="row justify-content-center align-items-center f-18 medium">
 				<div class="col-lg-3 logo" data-aos-duration="600" data-aos="fade-down" data-aos-delay="1200">Da Forum</div>
 				<div class="col-lg-6 text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="900">
-					<a href="#" class="link color-heading mx-15">Home</a>
+					<a href="index.html" class="link color-heading mx-15">Home</a>
 					<a href="#" class="link color-heading mx-15">Members</a>
 					<a href="#" class="link color-heading mx-15">Contact Us</a>
 					<a href="#" class="link color-heading mx-15">Other</a>
@@ -76,17 +80,61 @@
 	</nav>
 
 	<div class="container">
-		<div class="mb-3 logo d-block d-xl-none text-center logo_mobile">Niko</div>
-		<h1 class="big text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">Niko's Forum</h1>
-		<div class="mw-600 mx-auto mt-30 f-22 color-heading text-center text-adaptive" data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
-			Welcome to Niko's Gaming Forum!		</div>
-		
-		<div class="mt-80 text-center buttons" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
-			<div><a href="#" class="btn lg action-1">Forum</a></div>
-			<div><a href="#" class="mt-15 link action-1 f-18 medium">Learn More</a></div>
+		<div data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+				<form class="form-horizontal">
+						<fieldset>
+						
+						<!-- Form Name -->
+						<legend>Register</legend>
+						
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="textinput">E-mail</label>  
+						  <div class="col-md-5">
+						  <input id="textinput" name="textinput" type="text" placeholder="someone@something.com" class="form-control input-md">
+							
+						  </div>
+						</div>
+						
+						<!-- Text input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="nameinput">Full Name</label>  
+						  <div class="col-md-5">
+						  <input id="nameinput" name="nameinput" type="text" placeholder="eg. Billy Murphy" class="form-control input-md">
+							
+						  </div>
+						</div>
+						
+						<!-- Password input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="passwordinput2">Repeat Password</label>
+						  <div class="col-md-4">
+							<input id="passwordinput2" name="passwordinput2" type="password" placeholder="********" class="form-control input-md">
+							
+						  </div>
+						</div>
+						
+						<!-- Password input-->
+						<div class="form-group">
+						  <label class="col-md-4 control-label" for="passwordinput">Password</label>
+						  <div class="col-md-4">
+							<input id="passwordinput" name="passwordinput" type="password" placeholder="********" class="form-control input-md">
+							
+						  </div>
+						</div>
+						<!-- Button -->
+<div class="form-group">
+		<label class="col-md-4 control-label" for="registerbutton"></label>
+		<div class="col-md-4">
+		  <button id="registerbutton" name="registerbutton" class="btn-success" onlick="register()">Register</button>
 		</div>
-	</div>
-</header>
+	  </div>
+						
+						</fieldset>
+						</form>
+						
+				</div>
+			  </div>
 <!-- forms alerts -->
 <div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
 	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>

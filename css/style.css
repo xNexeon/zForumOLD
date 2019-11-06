@@ -128,7 +128,7 @@ b, strong {
 }
 /* Slick slider */
 .slick-list {
-  /* background: #fff url("../i/ajax-loader.gif") center center no-repeat; */
+   background: #fff url("../i/ajax-loader.gif") center center no-repeat;
 }
 /* Arrows */
 .slick-prev, .slick-next {
