@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+			<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 		<meta charset="utf-8" >
 		<title>Nex</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +22,7 @@
 					<link href="css/style.css" rel="stylesheet" />
 				<!-- jQuery 3.3.1 -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="script.js"></script>
 			</head> 
 	<body>
 <!-- Navigation Mobile type 1 -->
@@ -101,6 +103,52 @@
 	An error occurred while sending data :(
 </div>
 
+<table class="calc">
+	<tbody>
+	<tr>
+	<td><button class="button" onclick='displayScreen.value = "";' style= "font-size:24px;">Clr</button></td>
+	<td colspan="3"><input type="text" id="displayScreen" /></td> 
+
+	</tr>
+	<tr>
+	<td><button onclick="addNumberToDisplay('7')" class="button">7</button></td>
+	<td><button onclick="addNumberToDisplay('8')" class="button">8</button></td>
+	<td><button onclick="addNumberToDisplay('9')" class="button">9</button></td>
+	<td><button onclick="addNumberToDisplay('+')" class="button">+</button></td>
+	</tr>
+	<tr>
+	<td><button onclick="addNumberToDisplay('4')" class="button">4</button></td>
+	<td><button onclick="addNumberToDisplay('5')" class="button">5</button></td>
+	<td><button onclick="addNumberToDisplay('6')" class="button">6</button></td>
+	<td><button onclick="addNumberToDisplay('-')" class="button">-</button></td>
+	</tr>
+	<tr>
+	<td><button onclick="addNumberToDisplay('1')" class="button">1</button></td>
+	<td><button onclick="addNumberToDisplay('2')" class="button">2</button></td>
+	<td><button onclick="addNumberToDisplay('3')" class="button">3</button></td>
+	<td><button onclick="addNumberToDisplay('/')" class="button">÷</button></td>
+	</tr>
+	<tr>
+	<td><button onclick="addNumberToDisplay('0')" class="button">0</button></td>
+	<td><button onclick="addNumberToDisplay('.')" class="button">.</button></td>
+	<td><button onclick="solve()" class="button">=</button></td>
+	<td><button onclick="addNumberToDisplay('*')" class="button">×</button></td>
+	</tr>
+	</tbody>
+	</table>
+	<script>
+		var displayScreen = document.getElementById('displayScreen');
+		function addNumberToDisplay(number) {
+		  var displayScreenValue = displayScreen.value;
+		  displayScreen.value = displayScreenValue + number;
+		}
+		function solve() { 
+		   let x = document.getElementById("displayScreen").value 
+		   let y = eval(x) 
+		   document.getElementById("displayScreen").value = y
+	   } 
+	</script>
+
 <!-- Bootstrap 4.3.1 JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
@@ -111,10 +159,9 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-<script src="js/jquery.maskedinput.min.js"></script>
 <!-- Startup 3 JS (Custom js for all blocks) -->
 <script src="js/script.js"></script>
+
 
 </body>
 </html>
