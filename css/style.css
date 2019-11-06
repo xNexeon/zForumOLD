@@ -52,28 +52,6 @@ nav {
 nav.transparent {
   background: transparent;
 }
-a, button {
-  cursor: pointer;
-  transition: all 0.25s;
-}
-a:hover, button:hover {
-  text-decoration: none;
-}
-a:active, button:active, a:focus, button:focus {
-  text-decoration: none;
-  outline: none;
-}
-button {
-  border: none;
-  outline: none !important;
-}
-input, textarea {
-  border: 0;
-  outline: none;
-  background: transparent;
-  color: #1e0e62;
-  resize: none;
-}
 label {
   margin-bottom: 0;
   font-weight: 400;
@@ -216,33 +194,6 @@ b, strong {
   margin: 0 5px;
   padding: 0;
   cursor: pointer;
-}
-.slick-dots li button {
-  box-sizing: border-box;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  background: transparent;
-  display: block;
-  height: 10px;
-  width: 10px;
-  padding: 0;
-  outline: none;
-  line-height: 0px;
-  font-size: 0px;
-  color: transparent;
-  opacity: 0.3;
-  cursor: pointer;
-}
-.slick-dots li button:hover {
-  outline: none;
-  opacity: 0.8;
-}
-.slick-dots li.slick-active button {
-  background: #fff;
-  opacity: 1;
-}
-.slick-dots li.slick-active button:hover {
-  opacity: 1;
 }
 .slick-slide {
   outline: none;
@@ -718,4 +669,64 @@ b, strong {
     width: 100%;
     max-width: 100%;
   }
+}
+table.calc {
+  background-color: #EEEEEE;
+  width: 600px;
+  height: 800px;
+  text-align: center;
+}
+table.calc td, table.calc th {
+  border: 1px solid #AAAAAA;
+  width: 150px;
+  height: 160x;
+}
+table.calc tbody td {
+  font-size: 13px;
+}
+table.calc tfoot td {
+  font-size: 14px;
+}
+table.calc tfoot .links {
+  text-align: right;
+}
+table.calc tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  color: black;
+  padding: 20px 20px;
+  text-align: center justify;
+  font-size: 40px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color:#ededed;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#777777;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+       
+
+.button:hover {
+  background-color: green;
+}
+input {
+    width: 400px;
+    height: 100px;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: right;
 }
