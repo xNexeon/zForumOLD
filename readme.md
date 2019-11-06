@@ -9,4 +9,5 @@ This is a test test
 ![sc2](img/sc1.png)
 
 ## About
-To make this website, I have used the ususal basic technologies: CSS, HTML & Javascrips. I have also used some modified libaries which include Bootstrap, jQuery and the free version of Startup 3
+To make this website, I have used the basic technologies which are: Javascript, CSS & HTML.
+I also used some modified libraries for: Bootstrap, Jquery & Startup 3
