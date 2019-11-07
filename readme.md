@@ -1,5 +1,4 @@
 # zForum
-This is a test test
 
 ## This is a project website which I am making as part as my internship in RedHat
 ## This is what my websites index looks like currently;

@@ -383,7 +383,8 @@ b, strong {
     line-height: 50px;
     padding: 0 30px;
   }
-  .btn.xl[class^="border-"], .btn.xl[class*=" border-"] {
+  .btn
+.xl[class^="border-"], .btn.xl[class*=" border-"] {
     line-height: 46px;
   }
 }
