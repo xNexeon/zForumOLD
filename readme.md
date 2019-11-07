@@ -8,5 +8,13 @@ This is a test test
 ## This is a what the sign-up page currently looks like 
 ![sc2](img/sc1.png)
 
-## About
-To make this website, I have used a couple of technologies (CSS HTML JS)
+## Technologies Used
+-Javascript
+-HTML
+-CSS
+
+## Libraries Used
+-Startup 3 (Free)
+-Custom jQuery (Also plugins such as AOS)
+-Custom Bootstrap 4
+
