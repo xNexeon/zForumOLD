@@ -8,6 +8,7 @@ This is a test test
 ## This is a what the sign-up page currently looks like 
 ![sc2](img/sc1.png)
 
+<<<<<<< HEAD
 ## Technologies Used
 -Javascript
 -HTML
@@ -18,3 +19,11 @@ This is a test test
 -Custom jQuery (Also plugins such as AOS)
 -Custom Bootstrap 4
 
+=======
+## About
+To make this website, I have used a couple of technologies (CSS HTML JS) jqwdjwdj wrjfwrjfrjwrjfwrfj
+
+jkaddjj
+
+line 16 change 1
+>>>>>>> master
