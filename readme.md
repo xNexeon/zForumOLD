@@ -9,6 +9,6 @@ This is a test test
 ![sc2](img/sc1.png)
 
 ## About
-To make this website, I have used a couple of technologies (CSS HTML JS) jqwdjwdj
+To make this website, I have used a couple of technologies (CSS HTML JS) jqwdjwdj wrjfwrjfrjwrjfwrfj
 
 jkaddjj
