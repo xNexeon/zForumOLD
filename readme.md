@@ -14,6 +14,8 @@ This is a test test
 -CSS
 
 ## Libraries Used
--Jquery (with plenty of plugins such as AOS)
+-Jquery (with plenty of plugins such as AOS
+# 
 -Bootstrap 4.3 modified
+# 
 -Startup 3 Free
