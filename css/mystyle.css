@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-.button {
-    background-color: #4CAF50;
-=======
 .button1 {
     background-color: #00d3aa;
->>>>>>> d274246e85e149d6e57e3b512afe9ba2043d42a4
     border: none;
     color: white;
-    padding: 20px;
+    padding: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-<<<<<<< HEAD
-    font-size: 16px;
-    margin: 4px 2px;
-=======
     font-size: 18px;
     margin: 2px 2px;
-    border-radius: 25px;
->>>>>>> d274246e85e149d6e57e3b512afe9ba2043d42a4
+    border-radius: 30px;
   }
