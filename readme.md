@@ -13,6 +13,6 @@
 - CSS
 
 ## Libraries Used
-- Jquery (with plenty of plugins such as AOS 
-- Bootstrap 4.3 modified
-- Startup 3 Free
+- [jQuery (bundled with plugins)](https://designmodo.com/startup/app/)
+- [Bootstrap 4.3 modified](https://getbootstrap.com/)
+- [Startup 3 Free](https://designmodo.com)
