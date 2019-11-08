@@ -8,13 +8,11 @@
 ![sc2](img/sc1.png)
 
 ## Technologies Used
--Javascript
--HTML
--CSS
+- Javascript
+- HTML
+- CSS
 
 ## Libraries Used
--Jquery (with plenty of plugins such as AOS
-# 
--Bootstrap 4.3 modified
-# 
--Startup 3 Free
+- Jquery (with plenty of plugins such as AOS 
+- Bootstrap 4.3 modified
+- Startup 3 Free
